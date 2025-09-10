@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan Lucía & Juan</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <audio id="background-music" loop>
+        <source src="musik-pernikahan.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="header" style="background-image: url('foto-pasangan.jpg');">
+        <h1 class="nama">Lucía & Juan</h1>
+        <p class="slogan">NOS CASAMOS</p>
+    </div>
+
+    <main class="content">
+
+        <section class="intro">
+            <h2>¡Estás invitado!</h2>
+            <p>Nos encantaría que seas parte de este momento tan especial para nosotros. ¡Falta poco!</p>
+        </section>
+        
+        <section class="countdown-timer">
+            <div class="timer">
+                <div class="box">
+                    <span id="days">389</span>
+                    <span>DÍAS</span>
+                </div>
+                <div class="box">
+                    <span id="hours">8</span>
+                    <span>HORAS</span>
+                </div>
+                <div class="box">
+                    <span id="minutes">9</span>
+                    <span>MINUTOS</span>
+                </div>
+                <div class="box">
+                    <span id="seconds">3</span>
+                    <span>SEGUNDOS</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="acara">
+            <div class="acara-item">
+                <h3 class="icon">💍 CEREMONIA</h3>
+                <p>Gereja San Francisco</p>
+                <p>27 SEP | 8:00 P.M.</p>
+                <a href="#" class="button">VER UBICACIÓN</a>
+            </div>
+            <div class="acara-item">
+                <h3 class="icon">🥂 CELEBRACIÓN</h3>
+                <p>Del Carril Eventos</p>
+                <p>27 SEP | 9:00 P.M.</p>
+                <a href="#" class="button">VER UBICACIÓN</a>
+            </div>
+        </section>
+
+        <section class="dress-code">
+            <h3 class="icon">👗 DRESS CODE</h3>
+            <p>Formal</p>
+            <p>¡Luce tu mejor look!</p>
+        </section>
+
+        <section class="gallery">
+            <h3>COMPARTIR FOTOS</h3>
+            <div class="photo-grid">
+                <img src="foto1.jpg" alt="Foto 1">
+                <img src="foto2.jpg" alt="Foto 2">
+                <img src="foto3.jpg" alt="Foto 3">
+                <img src="foto4.jpg" alt="Foto 4">
+            </div>
+        </section>
+
+        <section class="rsvp-form">
+            <h3 class="icon">✔️ CONFIRMAR ASISTENCIA</h3>
+            <form>
+                <input type="text" placeholder="Nama lengkap">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Pesan untuk kami"></textarea>
+                <button type="submit">KIRIM RESPON</button>
+            </form>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
