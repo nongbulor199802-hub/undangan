@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Undangan Acara Para Bhada Tau Nuwa</title>
+    <title>Undangan Acara Adat</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -13,65 +13,65 @@
         <source src="musik-pernikahan.mp3" type="audio/mpeg">
     </audio>
 
-    <div class="header" style="background-image: url('foto-pasangan.jpg');">
-        <h1 class="nama">RD. Petrus Sina, Falens Raga Sina, Florianus Peja sina, Romanus sina, Servas Sina</h1>
-        <p class="slogan">Mengundang Anda</p>
+    <div class="cover-section" style="background-image: url('foto-pasangan.jpg');">
+        <div class="cover-overlay">
+            <p class="greeting">Dengan Segala Hormat,</p>
+            <h1 class="nama">RD. Petrus Sina, Falens Raga Sina, Florianus Peja Sina, Romanus sina, Servas Sina</h1>
+            <p class="event-title">Mengundang Anda ke Acara Adat</p>
+        </div>
     </div>
 
-    <main class="content">
+    <main class="main-content">
 
-        <section class="intro">
-            <h2>Undangan</h2>
-            <p>
-                Dengan segala hormat, kami mengundang Bapak/Ibu, Saudara/i untuk menghadiri acara **Para Bhada Tau Nuwa** dari saudara **RD. Petrus Sina, Falens Raga Sina, Florianus Peja Sina, Romanus Sina, dan Servas Sina.**
+        <section class="section intro-text">
+            <h2>Acara Para Bhada Tau Nuwa</h2>
+            <p class="invitation-text">
+                Merupakan satu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu, Om/Tanta, sahabat, kenalan, dan Saudara/i semuanya berkenan hadir untuk memberikan dukungan kepada kami.
             </p>
         </section>
         
-        <section class="countdown-timer">
-            <p>Acara akan dimulai dalam:</p>
-            <div class="timer">
-                <div class="box">
+        <section class="section countdown-timer">
+            <h2 class="section-title">Acara akan dimulai dalam:</h2>
+            <div class="timer-container">
+                <div class="timer-box">
                     <span id="days"></span>
-                    <span>HARI</span>
+                    <span>Hari</span>
                 </div>
-                <div class="box">
+                <div class="timer-box">
                     <span id="hours"></span>
-                    <span>JAM</span>
+                    <span>Jam</span>
                 </div>
-                <div class="box">
+                <div class="timer-box">
                     <span id="minutes"></span>
-                    <span>MENIT</span>
+                    <span>Menit</span>
                 </div>
-                <div class="box">
+                <div class="timer-box">
                     <span id="seconds"></span>
-                    <span>DETIK</span>
+                    <span>Detik</span>
                 </div>
             </div>
         </section>
 
-        <section class="acara">
-            <div class="acara-item">
-                <h3 class="icon">📍 DETAIL ACARA</h3>
-                <p>Hari/Tanggal: **Sabtu, 13 September 2025**</p>
-                <p>Tempat: **Nunungongo, Lorong Gereja Kristus Raja**</p>
-                <p>Alamat: **Rumah Bapak Fransiskus Sina**</p>
+        <section class="section details-acara">
+            <h2 class="section-title">Detail Acara</h2>
+            <div class="card">
+                <h3><span class="icon">📅</span> Hari & Tanggal</h3>
+                <p>Sabtu, 13 September 2025</p>
+            </div>
+            <div class="card">
+                <h3><span class="icon">📍</span> Tempat</h3>
+                <p>Nunungongo, Lorong Gereja Kristus Raja, Rumah Bpk Fransiskus Sina</p>
             </div>
         </section>
 
-        <section class="undangan-penutup">
-            <p>
-                Merupakan satu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu, Om/Tanta, sahabat kenalan, dan Saudara/i semuanya berkenan hadir untuk memberikan dukungan kepada kami.
-            </p>
-            <p>
-                Atas kehadiran dan dukungannya, kami sampaikan **terima kasih**.
-            </p>
+        <section class="section closing-text">
+            <p>Atas kehadiran dan dukungan Anda, kami sampaikan **Terima Kasih**.</p>
         </section>
 
-        <section class="rsvp-form">
-            <h3 class="icon">✔️ Konfirmasi Kehadiran</h3>
+        <section class="section rsvp-form">
+            <h2 class="section-title">Konfirmasi Kehadiran</h2>
             <form>
                 <input type="text" placeholder="Nama lengkap Anda">
-                <input type="email" placeholder="Email Anda (opsional)">
                 <textarea placeholder="Pesan atau ucapan untuk kami"></textarea>
                 <button type="submit">KIRIM RESPON</button>
             </form>
